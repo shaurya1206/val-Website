@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, sans-serif;
+    background-color: pink;
+  }
+  
+.centered-content {
+    text-align: center;
+  }
+  
+h1 {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  
+img {
+    max-width: 100%;
+    border-radius: 90px;
+  }
+
+button {
+    width: 150px;
+    height: 100px;
+    margin: 20px 20px 0 20px;
+    position: relative;
+    border-radius: 25px;
+  }
+#yesButton{
+  background: rgb(223,8,41);
+  background: linear-gradient(90deg, rgba(223,8,41,1) 0%, rgba(232,8,204,1) 50%, rgba(175,0,255,1) 100%);
+  color: aliceblue;
+  font-size: 25px;
+}
